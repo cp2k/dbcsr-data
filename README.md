@@ -6,17 +6,16 @@ This repository contains the data resulting from the autotuning of [libcusmm](ht
 
 ## File Contents Description
 
-- `baseline_performances_by_algo.json`
-- `max_performances.json`
+Raw kernel parameters and their measured performance are recorded in CSV files.  Parameters for different algorithms are recorded in different files:
 - `raw_training_data_largeDB1.csv`
 - `raw_training_data_largeDB2.csv`
 - `raw_training_data_medium.csv`
 - `raw_training_data_small.csv`
 - `raw_training_data_tiny.csv`
 
-## To Contribute 
+## Contributing
 
-To gather data, follow the instruction in the [predictive modeling of optimal parameters for libcusmm](https://github.com/cp2k/dbcsr/tree/develop/src/acc/libsmm_acc/libcusmm/predict.md). 
+To collect new data, follow the instruction in the [predictive modeling of optimal parameters for libcusmm](https://github.com/cp2k/dbcsr/tree/develop/src/acc/libsmm_acc/libcusmm/predict.md). 
 
 To contribute your work, please use the [git commit template](git-commit.template).
 
