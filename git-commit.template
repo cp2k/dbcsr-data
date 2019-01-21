@@ -1,24 +1,24 @@
 Add libcusmm parameters to GPU CARD
 
 # Please contribute the following metadata about the
-# autotuning procedure:
+# autotuning procedure, then delete all lines starting with a '#':
 
 # On which machine was the autotuning performed? (e.g. daint-gpu, CSCS)
-Machine:
-
+machine:
 # GPU card
-GPU:
+gpu:
+# With which DBCSR version (git SHA) was the autotuning performed?
+DBCSR SHA:
+# Date(s) of autotuning procedure
+date:
 
-# Whith which tools was DBCSR compiled?
+=================================================================
+# With which tools was DBCSR compiled?
 # Please paste the output of make toolversions:
 toolversions:
 
+=================================================================
 # Whith which tools was DBCSR compiled?
 # Please paste the output of make toolflags:
 toolflags:
 
-# With which DBCSR version (git SHA) was the autotuning performed?
-DBCSR SHA:
-
-# Date(s) of autotuning procedure
-Date:
